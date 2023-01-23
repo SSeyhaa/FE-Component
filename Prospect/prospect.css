@@ -1,0 +1,68 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.prospects{
+    padding: 5vw 0;
+}
+
+.paragraph{
+    font-size: 1.2vw;
+}
+
+
+.prospects img{
+    margin-right: clamp(1em, 3vw, 4em);
+    width: 100%;
+    max-width: 250px;
+    object-fit: contain;
+}
+
+.prospects img{
+    margin-bottom: 3vw;
+}
+
+.prospects .prospects-title{
+    font-family: var(--font-manrope);
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    font-size: clamp(2rem, 5vw, 5rem);
+    line-height: 115%;
+    margin-bottom: 0.5em;
+}
+
+.prospects .description{
+    margin-bottom: 5vw;
+    font-family: var(--font-manrope);
+    font-weight: 600;
+    line-height: 1.8em;
+    font-size: clamp(.85em,1.25vw,1.15em);
+}
+.title-list{
+    font-family: var(--font-manrope);
+    font-weight: 600;
+    letter-spacing: .015em;
+    font-size: clamp(.85em,1.5vw,1.5em);
+}
+
+.coll .description2{
+    font-family: var(--font-manrope);
+    font-weight: 400;
+    line-height: 1.8em;
+    font-size: clamp(.85em,1.25vw,1.15em);
+}
+
+li{
+    font-family: var(--font-manrope);
+    font-weight: 400;
+    line-height: 1.8em;
+    font-size: clamp(.85em,1.25vw,1.15em);
+}
+
+
+
+
+
+
