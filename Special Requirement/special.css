@@ -1,0 +1,44 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+.sec-padding{
+    padding: 5vw 0;
+}
+
+
+.special-requirement .sec-title{
+    font-family: var(--font-manrope);
+    font-weight: 600;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    font-size: clamp(2rem, 5vw, 5rem);
+    line-height: 115%;
+    margin-bottom: 0.5em;
+}
+
+.special-requirement .description{
+    font-weight: 500;
+    font-size: clamp(0.85em, 1.25vw, 1.15em);
+    margin-bottom: 1em;
+    letter-spacing: 0.015em;
+    color: #009688;
+}
+
+.special-requirement .list{
+    color: rgb(51, 51, 51);
+    font-family: var(--font-manrope);
+    font-weight: 500;
+    line-height: 1.8em;
+    font-size: clamp(0.8em, 1.25vw, 1.05em);
+}
+
+
+.special-requirement img{
+    object-fit: contain;
+    height: 20rem;
+    width: 100%;
+    transition: width 150ms ease-in-out 0s;
+}
